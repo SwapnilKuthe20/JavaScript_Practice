@@ -47,12 +47,44 @@ let convertIsPass = Number(isPass)
 
 
 let isAllowed = false;
-console.log(isAllowed);         // false
-console.log(typeof isAllowed);  // boolean
+// console.log(isAllowed);         // false
+// console.log(typeof isAllowed);  // boolean
 
 let convertIsAllowed = Number(isAllowed);
-console.log(convertIsAllowed);         // 0
-console.log(typeof convertIsAllowed);  // number
+// console.log(convertIsAllowed);         // 0
+// console.log(typeof convertIsAllowed);  // number
+
+
+
+// ************** Operation ***************
+
+// console.log(2 + 2);  // 4
+// console.log(2 - 2);  // 0
+// console.log(2 * 2);  // 4
+// console.log(2 / 2);  // 1
+// console.log(2 ** 2); // 4 (to the power)
+// console.log(2 % 2);  // 0 (modulus)
+
+
+let str1 = "Swap";
+
+let str2 = " Neel";
+
+let Addition = str1 + str2
+
+// console.log(Addition);
+
+// -----------------------
+
+// console.log(2 + '2')     // 22
+// console.log("2" + 2)     // 22
+// console.log("2" + "2")   // 22
+// console.log("2" + 2 + 3) // 223
+// console.log(2 + 2 + "3") // 43
+
+
+
+
 
 
 
